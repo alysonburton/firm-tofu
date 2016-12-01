@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&subset=cyrillic,latin-ext');
+
+html, body {
+  background-color: #008aaf;
+}
+
+.uk-navbar {
+  margin: 40px 40px 0 40px;
+  background-color: #008aaf;
+  position: relative;
+}
+
+.uk-navbar-nav>li>a {
+  color: white;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  margin: 0 0 0 40px;
+}
+
+.underline {
+  margin-top: -4px;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  left: 320px;
+  border-bottom: 2px white solid;
+}
+
+#landing {
+  height: 450px;
+  margin-top: 150px;
+  text-align: center;
+  z-index: 3;
+}
+
+#landing img {
+  margin-bottom: 150px;
+}
+
+#landing .text{
+  line-height: 1em;
+  font-family: 'Playfair Display', serif;
+  color: #ece1ed;
+  font-weight: bold;
+  font-size: 11em;
+}
+
+#landing .text.bottom {
+  margin-left: -3.4em;
+}
+
+#background-one {
+  position: relative;
+  z-index: 2;
+  height: 2500px;
+  background-color: black;
+  background-image: url('../img/bg1.jpg');
+  background-size: cover;
+}
+
+#background-one h1 {
+  margin-top: 1000px;
+}
+
+h1 {
+  color: #888489;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 14em;
+  font-weight: bold;
+}
+
+p {
+  color: #888489;
+  margin: 100px auto 0 auto;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.bottom_piece {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.top_piece {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#proceeds h1 {
+  margin: 200px 0 200px 0;
+  color: white;
+  font-size: 30em;
+  font-family: 'Playfair Display', serif;
+}
+
+#proceeds h1:nth-child(2) {
+  color: white;
+  margin: 300px auto 0 auto;
+  font-size: 3.4em;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#portfolio {
+  position: relative;
+  background-color: white;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#portfolio_1 {
+  height: 1300px;
+  background-color: red;
+  background: url('../img/portfolio_1_bw.png');
+  background-size: cover;
+}
+
+#portfolio_1:hover {
+  background: url('../img/portfolio_1_hover.png');
+  background-size: cover;
+}
+
+#portfolio_2 {
+  height: 1300px;
+  background-color: green;
+  background: url('../img/portfolio_2_bw.png');
+  background-size: cover;
+}
+
+#portfolio_2:hover {
+  background: url('../img/portfolio_2_hover.png');
+  background-size: cover;
+}
+
+#portfolio_3 {
+  margin-top: -450px;
+  height: 1300px;
+  background-color: green;
+  background: url('../img/portfolio_3_bw.png');
+  background-size: cover;
+}
+
+#portfolio_3:hover {
+  background: url('../img/portfolio_3_hover.png');
+  background-size: cover;
+}
+
+#portfolio_4 {
+  margin-top: -450px;
+  height: 1300px;
+  background-color: green;
+  background: url('../img/portfolio_4_bw.png');
+  background-size: cover;
+}
+
+#portfolio_4:hover {
+  background: url('../img/portfolio_4_hover.png');
+  background-size: cover;
+}
+
+#footer h1 {
+  margin: 200px 0 200px 0;
+  color: white;
+  font-size: 18em;
+  font-family: 'Playfair Display', serif;
+}
+
+#footer h1:nth-child(2) {
+  color: white;
+  margin: -50px auto 0 auto;
+  font-size: 3.4em;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#footer .img_container {
+  margin-top: -100px;
+}
+
+#footer img {
+  display: inline-block;
+}
